@@ -1,5 +1,5 @@
 
-int switchState = 0
+int switchState = 0;
 void setup() {
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
@@ -22,7 +22,7 @@ void loop() {
     digitalWrite(5, HIGH);
 
     delay(250);
-    digitalWrite(4, HIGH)
+    digitalWrite(4, HIGH);
     digitalWrite(5, LOW);
     delay(250);
     }
